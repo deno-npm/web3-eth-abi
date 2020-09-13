@@ -8,26 +8,16 @@ This is the abi package used in the `web3-eth` package.
 
 Please read the [documentation][docs] for more.
 
-## Installation
-
-### Node.js
-
-```bash
-npm install web3-eth-abi
-```
-
 ## Usage
 
 ```js
-const Web3EthAbi = require('web3-eth-abi');
+import Web3EthAbi from 'https://deno.land/x/npm_web3_eth_abi@0.0.1/mod.js';
 
-Web3EthAbi.encodeFunctionSignature('myMethod(uint256,string)');
-> '0x24ee0097'
+Web3EthAbi.encodeFunctionSignature('myMethod(uint256,string)') // 0x24ee0097
 ```
 
-## Types
-
-All the TypeScript typings are placed in the `types` folder.
+## TODO
+- [ ] Merge types
 
 [docs]: http://web3js.readthedocs.io/en/1.0/
 [repo]: https://github.com/ethereum/web3.js
